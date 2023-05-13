@@ -1,0 +1,29 @@
+{
+
+  "name": "Random-password-generator",
+
+  "version": "1.0.0",
+
+  "devDependencies": {
+
+    "wrangler": "2.20.0"
+
+  },
+
+  "private": true,
+
+  "scripts": {
+
+    "start": "wrangler dev",
+
+    "deploy": "wrangler publish"
+
+  },
+
+  "dependencies": {
+
+    "node-telegram-bot-api": "^0.53.0"
+
+  }
+
+}
