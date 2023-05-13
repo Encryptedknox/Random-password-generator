@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 
 // create Telegram bot object
 
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = 'TOKEN';
 
 const bot = new TelegramBot(token, { polling: true });
 
